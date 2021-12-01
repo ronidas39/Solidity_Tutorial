@@ -1,0 +1,97 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_var1",
+						"type": "uint256"
+					}
+				],
+				"name": "change_state",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_var2",
+						"type": "uint256"
+					}
+				],
+				"name": "multiply",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "var1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "view_state",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Users/ronidas/Documents/GitHub/Solidity_Tutorial/tutorial1/contract1.sol": "tutorial1"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Users/ronidas/Documents/GitHub/Solidity_Tutorial/tutorial1/contract1.sol": {
+			"keccak256": "0x308a34a74f5946ee52ba0b3dd85a32dbbbbd054f1e72c3064a9575f81f6584bd",
+			"urls": [
+				"bzz-raw://0bdf2483992d8c5e622045b3cd3ad0aaafa9f77904e0c3edd1d2d69e21bacf03",
+				"dweb:/ipfs/QmU1fA7vCSxwTYuw1qe62D3t5dk83fhjjh51VfAXJhxzVh"
+			]
+		}
+	},
+	"version": 1
+}
