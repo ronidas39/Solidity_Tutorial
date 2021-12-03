@@ -1,0 +1,123 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_usdt",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "generate_member",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "member",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "usdt",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "member1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "usdt",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "member2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "usdt",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Users/ronidas/Documents/GitHub/Solidity_Tutorial/Tutorial2/contract.sol": "tutorial2"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Users/ronidas/Documents/GitHub/Solidity_Tutorial/Tutorial2/contract.sol": {
+			"keccak256": "0xf0b90f9f83fad8c6a9a484bc4fc763bc43be587c96f810904965f36669fbffd0",
+			"urls": [
+				"bzz-raw://b090edef810a38271b580dde5e00fe75c1230cef228c1ad257b7af421c3e9059",
+				"dweb:/ipfs/QmSHM87ccDEhdpHPqJjEX3qmFf7tR33W2dUwPmn2BTj7dm"
+			]
+		}
+	},
+	"version": 1
+}

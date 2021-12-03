@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Users/ronidas/Documents/GitHub/Solidity_Tutorial/Tutorial3/hello_world.sol": "hello_world"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Users/ronidas/Documents/GitHub/Solidity_Tutorial/Tutorial3/hello_world.sol": {
+			"keccak256": "0x055b5237bf69f7ca2f7dff263a5dae6c1bc1799f1aed3677dc06463d847d2902",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://33050cc95a2d29a7ed38f9dd61cb391ffd792b7efb947bd1b955fc75ee65a03e",
+				"dweb:/ipfs/QmWk5k4Z8wm6dW6iWptAdYtETgMktAaqtWQH4wHsktcAGD"
+			]
+		}
+	},
+	"version": 1
+}
